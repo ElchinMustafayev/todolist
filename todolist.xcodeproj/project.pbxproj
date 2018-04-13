@@ -12,6 +12,7 @@
 		BCC20B2E2077C324006B2B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC20B2C2077C324006B2B14 /* Main.storyboard */; };
 		BCC20B302077C324006B2B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC20B2F2077C324006B2B14 /* Assets.xcassets */; };
 		BCC20B332077C324006B2B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC20B312077C324006B2B14 /* LaunchScreen.storyboard */; };
+		BCC20B3B207821B9006B2B14 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC20B3A207821B9006B2B14 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BCC20B2F2077C324006B2B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCC20B322077C324006B2B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCC20B342077C324006B2B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC20B3A207821B9006B2B14 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				BCC20B2F2077C324006B2B14 /* Assets.xcassets */,
 				BCC20B312077C324006B2B14 /* LaunchScreen.storyboard */,
 				BCC20B342077C324006B2B14 /* Info.plist */,
+				BCC20B3C20783968006B2B14 /* Data Model */,
 			);
 			path = todolist;
+			sourceTree = "<group>";
+		};
+		BCC20B3C20783968006B2B14 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCC20B3A207821B9006B2B14 /* Item.swift */,
+			);
+			path = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCC20B2B2077C324006B2B14 /* ToDoListViewController.swift in Sources */,
+				BCC20B3B207821B9006B2B14 /* Item.swift in Sources */,
 				BCC20B292077C324006B2B14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
